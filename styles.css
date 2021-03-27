@@ -80,14 +80,21 @@ a:visited {
   padding-top: 10vh;
   display: flex;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .project {
-  height: 100px;
-  width: 100px;
-  background-color: white;
-  margin: 10px;
+  background: #2c8286;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  height: 15rem;
+  width: 15rem;
+  color: white;
+  text-align: center;
 }
 
 .home,

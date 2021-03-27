@@ -91,7 +91,6 @@ a:visited {
   justify-content: center;
   flex-direction: column;
   border-radius: 0.5rem;
-  height: 15rem;
   width: 15rem;
   color: white;
   text-align: center;
@@ -154,6 +153,10 @@ a:visited {
   text-align: center;
 }
 
+.project p {
+  padding: 1rem;
+}
+
 @media screen and (max-width: 430px) {
   body {
     overflow-x: hidden;
@@ -189,6 +192,10 @@ a:visited {
 
   .project {
     width: 100%;
+  }
+
+  .project p {
+    padding: 0.5rem;
   }
 
   .username {

@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Responsive Navbar</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="avatar.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -16,7 +17,8 @@
   <body>
     <nav class="navbar">
       <div class="name">
-        <i class="fab fa-2x fa-stumbleupon-circle"></i>&emsp;Navbar
+        <span class="color-red">NAV&nbsp;</span
+        ><span class="color-yellow">BAR</span>
       </div>
       <ul class="nav-items">
         <li class="navbar-list-item" name="Home">Home</li>
@@ -24,14 +26,8 @@
         <li class="navbar-list-item" name="About">About</li>
       </ul>
       <div class="contact">
-        <a href="https://github.com/ramakrishna0505" target="_blank"
-          ><i class="fab fa-2x fa-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/ramakrishna-reddy-tadi-003763166/"
-          target="_blank"
-          ><i class="fab fa-2x fa-linkedin"></i
-        ></a>
+        <a href="#"><i class="fab fa-2x fa-github"></i></a>
+        <a href="#"><i class="fab fa-2x fa-linkedin"></i></a>
       </div>
       <div class="lines">
         <div class="line1"></div>
@@ -41,52 +37,12 @@
     </nav>
     <div class="main-section">
       <div class="home" id="home" name="Home">
-        <img src="ProfilePic.webp" class="profile-pic" />
-        <div class="para">Hi, I am</div>
-        <div class="username">Ramakrishna Tadi</div>
-      </div>
-      <div id="projects" class="projects" name="Projects">
-        <div class="project">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quasi
-            possimus vel ipsam iure enim et, culpa quos libero debitis laborum
-            facere ipsa repellendus architecto exercitationem praesentium minus
-            aut eius.
-          </p>
+        <div>Hi, I am Ramakrishna Reddy Tadi.</div>
+        <div>
+          This is a simple responsive navbar. To check the responsiveness, you
+          can open developer tools if you are using a desktop/laptop or open
+          this site in your mobile browser.
         </div>
-        <div class="project">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quasi
-            possimus vel ipsam iure enim et, culpa quos libero debitis laborum
-            facere ipsa repellendus architecto exercitationem praesentium minus
-            aut eius.
-          </p>
-        </div>
-        <div class="project">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quasi
-            possimus vel ipsam iure enim et, culpa quos libero debitis laborum
-            facere ipsa repellendus architecto exercitationem praesentium minus
-            aut eius.
-          </p>
-        </div>
-      </div>
-      <div class="about" id="about" name="About">
-        <div class="know-more">
-          <div>
-            I am a front-end developer and for the past 3+ years I have been
-            working for TCS.
-          </div>
-          <div>I am proficient in Angular, HTML, Javascript and CSS.</div>
-          Want to know more about me? Say no more and
-        </div>
-        <button class="resume">
-          <a
-            href="https://drive.google.com/file/d/1Nj6KPPpH6eUon8bvqcApdFErXOUOjoa5/view?usp=sharing"
-            target="_blank"
-            >Checkout My Resume</a
-          >
-        </button>
       </div>
     </div>
   </body>

@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 ul {
   display: flex;
   list-style: none;
@@ -19,7 +20,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #2c8286;
+  background: black;
   font-size: 18px;
   height: 10vh;
   position: fixed;
@@ -30,6 +31,13 @@ ul {
   color: white;
   font-weight: bold;
 }
+
+.color-red {
+  color: #ee6c5a;
+}
+.color-yellow {
+  color: #fadd39;
+}
 .active {
   color: white;
   border-bottom: 5px solid white;
@@ -38,10 +46,11 @@ ul {
 .name {
   display: flex;
   align-items: center;
+  font-size: 24px;
 }
 
 body {
-  background: #d9e8e5;
+  background: white;
   margin: 0;
   font-family: poppins, sans-serif;
   position: relative;
@@ -76,85 +85,18 @@ a:visited {
   font-weight: bold;
 }
 
-.projects {
-  padding-top: 10vh;
-  display: flex;
-  justify-content: space-between;
-}
-
-.project {
-  background: #2c8286;
-  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  margin: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  width: 15rem;
-  color: white;
-  text-align: center;
-}
-
-.home,
-.about {
-  padding-top: 10vh;
+.home {
+  padding: 10vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.about {
-  padding-top: 10vh;
-  height: 101vh;
+  text-align: center;
 }
 
 .main-section {
   height: 100%;
-}
-
-.username {
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-.para {
-  font-size: 2.5rem;
-  padding-top: 10px;
-}
-
-.profile-pic {
-  height: 8rem;
-  width: 8rem;
-  border-radius: 50%;
-  border: 5px solid white;
-  box-shadow: 5px 5px 5px grey;
-}
-
-.resume {
-  font-size: 16px;
-  background: #2c8286;
-  padding: 10px;
-  border-radius: 5%;
-  box-shadow: 2px 2px 2px grey;
-  border: none;
-  font-weight: bold;
-  font-family: "Poppins";
-  margin-top: 10px;
-}
-
-.resume a {
-  text-decoration: none;
-}
-
-.know-more {
-  text-align: center;
-}
-
-.project p {
-  padding: 1rem;
 }
 
 @media screen and (max-width: 430px) {
@@ -165,9 +107,9 @@ a:visited {
     position: fixed;
     top: 10vh;
     right: 0;
-    background: #2c8286;
+    background: black;
     height: 90vh;
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -184,31 +126,6 @@ a:visited {
     display: block;
     height: 30px;
     width: 30px;
-  }
-
-  .projects {
-    flex-wrap: wrap;
-  }
-
-  .project {
-    width: 100%;
-  }
-
-  .project p {
-    padding: 0.5rem;
-  }
-
-  .username {
-    font-size: 1.5rem;
-  }
-
-  .para {
-    font-size: 1rem;
-  }
-
-  .profile-pic {
-    height: 4rem;
-    width: 4rem;
   }
 }
 
